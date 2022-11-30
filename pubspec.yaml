@@ -83,26 +83,26 @@ dependencies:
   better_player:
   uuid: 
   uuid_enhanced: ^3.0.0
-  video_player:
-    git:
-      url: https://github.com/sanekyy/plugins.git
-      ref: caching
-      path: packages/video_player/video_player
+  # video_player:
+  #   git:
+  #     url: https://github.com/sanekyy/plugins.git
+  #     ref: caching
+  #     path: packages/video_player/video_player
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
 dependency_overrides:
-  video_player:
-    git:
-      url: https://github.com/sanekyy/plugins.git
-      ref: caching
-      path: packages/video_player/video_player
-  sqflite:
-    git:
-      url: https://github.com/TinyProgrammers/sqflite.git
-      path: sqflite
+  # video_player:
+  #   git:
+  #     url: https://github.com/sanekyy/plugins.git
+  #     ref: caching
+  #     path: packages/video_player/video_player
+  # sqflite:
+  #   git:
+  #     url: https://github.com/TinyProgrammers/sqflite.git
+  #     path: sqflite
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
